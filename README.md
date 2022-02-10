@@ -3,7 +3,7 @@
 This repository implements a poisoning attack against machine unlearning as proposed in the following paper:
 
 > Marchant, N. G., Rubinstein, B. I. P., & Alfeld, S. (2022). Hard to Forget: Poisoning Attacks on Certified Machine 
-Unlearning. Proceedings of the AAAI Conference on Artificial Intelligence (to appear).
+Unlearning. Proceedings of the AAAI Conference on Artificial Intelligence (to appear). [[arXiv:2109.08266]](https://arxiv.org/pdf/2109.08266.pdf)
 
 The attack aims to **increase the computational cost** of processing unlearning requests for a model trained on 
 user data. This is done by poisoning user data under the attacker's control and then requesting that the 
