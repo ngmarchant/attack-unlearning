@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://storage.googleapis.com/jax-releases/jax_releases.html"
+verify_ssl = true
+name = "google_jax"
+
+[packages]
+numpy = "==1.20"
+jax = {index = "google_jax", version = "==0.2.14", extras = ["cuda11_cudnn805"]}
+tensorflow-probability = {extras = ["jax"], version = "==0.13"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
